@@ -32,7 +32,7 @@ const Cards = (props) => {
                 <br /><br />
                 <div className="cardMinTemp">Min Temprature: {props.data.temp.min} °F</div >
                 <br /><br />
-                <div className="cardMaxTemp">Max Temprature: {props.data.temp.min} °F</div >
+                <div className="cardMaxTemp">Max Temprature: {props.data.temp.max} °F</div >
                 <br /><br />
                 <div className="cardDescription">Description: {props.data.weather[0].description} </div >
                 <br />
